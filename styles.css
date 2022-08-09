@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+:root{
+    --primary-color:#7dd3fc;
+}
+body{
+    margin: 0px;
+    font-family:'Mouse Memoirs', sans-serif;
+    color:black;
+    display: block;
+    background-color: var(--primary-color);
+    letter-spacing: 1.2px;
+    font-size:large;
+}
+.nav-name {
+    font-weight: bold;
+    font-size: 1.8rem;
+    height: 6rem;
+    text-align:center;
+    padding: 1rem;
+}
+.pg-heading{
+    text-align: center;
+}
+.heading-message{
+    text-align: center;
+    font-size: larger;
+}
+.input-div{
+    max-width: 800px;
+    margin:auto;    
+}
+.input-message{
+    font-size: x-large;
+    font-weight: bold;
+    text-align:center;
+}
+#txt-input{
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding:1rem;
+    border: 2px solid black;
+}
+.button-div{
+    margin: auto;
+    max-width: 800px;
+    
+    
+}
+#btn-translate{
+    font-family:'Mouse Memoirs', sans-serif;
+    font-size: large;
+    font-weight:200;
+    padding : 1rem 2rem;
+    border:2px solid black;
+    border-radius: 0.3rem;
+    margin: 1rem 0rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+.output-div{
+    max-width: 800px;
+    margin: auto;
+}
+.output-message{
+    
+    font-size: x-large;
+    font-weight: bold;
+    text-align:center;
+}
+#txt-output{ 
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding:1rem;
+    border: 2px solid black;
+}
+.footercontainer{
+    height: 6rem;
+    text-align: center;
+    padding: 1rem;                             
+}
+.footer-header{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.footer-message{
+    font-size: 1.2rem
+}
